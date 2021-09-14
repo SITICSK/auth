@@ -1,0 +1,28 @@
+{
+    "name": "sitic/auth",
+    "description": "Users with OAuth, Password Reset, Email Change, Roles & Permissions, REST API",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "laravel/lumen": "8.x-dev",
+        "spatie/laravel-permission": "^5.1",
+        "guzzlehttp/guzzle": "^7.3",
+        "dusterio/lumen-passport": "^0.3.4",
+        "laravel/lumen-framework": "^8.0",
+        "cviebrock/eloquent-sluggable": "^8.0",
+        "doctrine/dbal": "^3.1",
+        "illuminate/mail": "^8.60"
+    },
+    "authors": [
+        {
+            "name": "David Puzder",
+            "email": "spam@davidpuzder.sk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Sitic\\Auth\\": "src/"
+        }
+    }
+}
